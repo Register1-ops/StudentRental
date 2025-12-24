@@ -5,7 +5,6 @@ public abstract class User{
     protected String passwordHash;
     protected boolean active = true;
 
-
     public User(int id, String name, String email, String passwordHash){
         this.id =  id;
         this.name = name;
