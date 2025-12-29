@@ -1,13 +1,12 @@
-package studentrentals;
-
 public class Student extends User{
     private String universityName;
     private String studentId;
     
-    public Student(int id, String name, String email, String passwordHash, String universityName, String studentId)
+    public Student(int id, String name, String email, String passwordHash, String universityName, String studentId){
         super(id, name, email, passwordHash);
         this.universityName = universityName;
         this.studentId = studentId;
+    }
 
     public String getUniversityName(){
         return universityName;

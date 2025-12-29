@@ -17,7 +17,7 @@ public abstract class User{
             return id;
         }
 
-        public booleanisActive(){
+        public boolean isActive(){
             return active;
         }
         public void deactivate(){

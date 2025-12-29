@@ -1,10 +1,8 @@
-package studentrentals;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class Homeowner extends User{
-    private List<Property> properties = new ArrayList<>;
+    private List<Property> properties = new ArrayList<>();
 
     public Homeowner(int id, String name, String email, String passwordHash){
         super(id, name ,email , passwordHash);
